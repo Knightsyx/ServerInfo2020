@@ -1,0 +1,72 @@
+#######################################
+#                                     #                                    
+#            Server Info              #
+#               By AG                 #
+#            Version1.06              #
+#           Knightsy#3473             #  
+#                                     #
+#######################################
+
+# !IMPORTANT! Use parameters 0 - 7 when changing slot for GUI items, 0 being equal to slot 1 and 7 being equal to slot 8
+
+essentials: false #Change to true if you have essentials and you want to use their INFO/HELP file or change to false if you want to use the one(s) in the config
+
+#Change name of the GUI
+name: Information
+
+#Discord Configuration
+
+discord-link: "https://www.google.com/" #Changes URL
+disc-message: "Discord" #Changes message shown when discord is clicked in GUI
+disc-slot: 0 
+disc-enable: true #Change to true if you want discord to be an option
+disc-material: GLOWSTONE_DUST
+
+#Forums Configuration
+
+forums-link: "https://www.google.com/" #Changes URL
+forum-message: "Forums" #Changes message shown when forums is clicked in GUI
+forum-slot: 1 
+forums-enable: true #Change to true if you want forums to be an option
+forum-material: REDSTONE
+
+#Info Config
+
+info-enable: true #Change to true if you want Information to be an option
+info-slot: 2
+info-material: OAK_SIGN
+
+#Edit how you want info to look if essentials is set to false
+info:
+  message:
+    - ""
+    
+
+#Help Configuration
+
+help-enable: true #Change to true if you want Help to be an option
+help-slot: 3
+help-material: BOOK
+
+#Edit how you want help to look if essentials is set to false
+help:
+  message:
+    - ""
+
+#Rules Configuration
+
+rules-enable: true # true/false
+rules-slot: 4
+rules-material: WRITABLE_BOOK
+
+
+#Edit how you want rules to look if essentials is set to false
+rules:
+  message:
+    - ""
+
+
+#Reload Message
+reload:
+  messages:
+    - "&8Plugin has been reloaded"

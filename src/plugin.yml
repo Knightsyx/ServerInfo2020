@@ -1,0 +1,8 @@
+main: me.Knightsy.ServerInfo.Main
+name: ServerInfo
+version: 1.06
+author: AG
+api-version: 1.13
+
+commands:
+  sinfo:
